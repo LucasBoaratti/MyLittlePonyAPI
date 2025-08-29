@@ -1,4 +1,4 @@
-# 🦄 MyLittlePony 🦄
+# 🦄 MyLittlePonyAPI 🦄
 
 #### MyLittlePony é uma API que retorna as informações de um ponei ao digitar o seu ID. Ele utiliza a API oficial do [MyLittlePony](https://ponyapi.net/).
 
