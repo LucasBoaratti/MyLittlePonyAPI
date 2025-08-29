@@ -1,0 +1,104 @@
+/* Estilizando o corpo da página */
+
+body {
+     background-image: url("../assets/Imagem_Fundo.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+/* Estilização do container */
+
+.container {
+     margin: 0 auto;
+     max-width: 1440px;
+     display: flex;
+     align-items: center;
+     min-height: 100vh;
+     padding: 30px 0;
+}
+
+.api {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+     width: 600px;
+}
+
+.apiInformacoes {
+     background-color: aqua;
+     padding: 30px;
+     border-radius: 25px;
+}
+
+.apiInformacoes h1 {
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 30px;
+}
+
+/* Estilizações do formulário */
+
+.apiInformacoes input {
+     height: 35px;
+     padding-left: 5px;
+     font-size: 18px;
+     margin-top: 5px;
+     margin-bottom: 20px;
+     width: 100%;
+     border-radius: 20px;
+     border: none;
+}
+
+.botao {
+     text-align: center;
+}
+
+.botao button {
+     background-color: chocolate;
+     padding: 10px;
+     border: none;
+     border-radius: 15px;
+     cursor: pointer;
+     margin-bottom: 20px;
+     font-size: 18px;
+}
+
+.botao button:hover {
+     background-color: black;
+     color: white;
+}
+
+/* Estilizações das informações */
+
+.informacoes h2 {
+     text-align: center;
+     margin-bottom: 20px;
+}
+
+.informacoes table {
+     border-collapse: collapse;
+     font-size: 16px;
+}
+
+.informacoes th, td {
+     border: 2px solid magenta;
+     padding: 10px;
+     font-size: 16px;
+}
+
+.imagemPony {
+     margin-top: 20px;
+     text-align: center;
+}
+
+.imagemPony h2 {
+     margin-bottom: 20px;
+}
+
+.imagemPony img {
+     border-radius: 10px;
+}
